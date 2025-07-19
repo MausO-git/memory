@@ -156,7 +156,7 @@ flipCards.forEach(flipCard => {
                     if(victory === 10){
                         setTimeout(() => {
                             victoryspot.style.transform = 'translate(0, 0)'
-                        }, 500)
+                        }, 550)
                         clearInterval(timerInterval)
                         let newTime = timer.textContent
                         console.log(newTime)
@@ -178,7 +178,7 @@ flipCards.forEach(flipCard => {
                     }
 
                     countflip = 0;
-                }, 1000);
+                }, 500);
             }
         }
     });
